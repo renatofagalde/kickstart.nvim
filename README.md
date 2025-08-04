@@ -250,3 +250,11 @@ wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.z
 unzip FiraCode.zip
 fc-cache -fv
 ```
+
+
+#### Install Libs
+```
+go install golang.org/x/tools/cmd/goimports@latest
+go install github.com/golangci/golangci-lint/cmd/golangci-lint@latest
+go install github.com/go-delve/delve/cmd/dlv@latest
+```
