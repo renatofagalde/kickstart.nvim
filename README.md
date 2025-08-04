@@ -239,3 +239,14 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ```
 </details>
 
+
+
+#### Install Fonts
+```
+mkdir -p ~/.local/share/fonts
+cd ~/.local/share/fonts
+
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip
+unzip FiraCode.zip
+fc-cache -fv
+```
